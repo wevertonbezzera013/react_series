@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import Home from './Home'
+import Home from './Home.js'
 
 function App() {
   const likes = 50;
