@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+
+}
+
+.container {
+    width: 50%;
+    box-sizing: border-box;
+    background: rgba(255, 0, 0, 0.349);
+    border-radius: 5px;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    :hover {
+        font-size: 40px;
+        transition: all 0.5s ease-in-out;
+        background: rgba(255, 0, 0, 0.123);
+    }
+}
+
+.container-items {
+    font-weight: 800;
+    font-size: 30px;
+    
+}
