@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar } from './components'
-import { Header, Footer, Body } from './components/container'
+import { Header, Footer, Body, Numero } from './components/container/'
 
 import './App.scss'
 
 const App = () => {
+
+    const [num, setNum] = useState(10)
+
     return (
-        <div>
+        <>
             <Navbar/>
             <Header/>
             <Body/>
+            <Numero num={num} setNum={setNum}/>
             <Footer/>
-        </div>
+        </>
     )
 }
 
